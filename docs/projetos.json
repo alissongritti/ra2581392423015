@@ -1,18 +1,31 @@
 [
   {
     "id": 1,
+    "semestre": "1° Semestre",
     "titulo": "ABP 1° Semestre - Jornada SCRUM",
-    "disciplina": "Todas",
+    "disciplina": "Projeto Integrador",
     "tecnologias": ["Javascript", "PostgreSQL", "Figma", "HTML", "CSS"],
-    "descricao": "Sistema web interativo e educativo que guie os usuários no aprendizado dos conceitos, práticas e princípios do Scrum, proporcionando uma experiência de aprendizado envolvente com seções de instrução, avaliações e emissão de certificados de conclusão.",
+    "descricao": "Sistema web interativo e educativo que guia os usuários no aprendizado dos conceitos, práticas e princípios do Scrum, proporcionando uma experiência de aprendizado envolvente com seções de instrução, avaliações e emissão de certificados de conclusão.",
     "categoria": "web",
     "link": "https://github.com/octacodeteam/ABP1",
-    "imagem": "img/projetos/abp1.png"
+    "imagens": ["img/projetos/abp1.png"]
   },
   {
     "id": 2,
+    "semestre": "1° Semestre",
+    "titulo": "Sistema de Empréstimos e Investimentos",
+    "disciplina": "Matemática para Computação",
+    "tecnologias": ["Typescript", "PostgreSQL", "HTML", "CSS", "React"],
+    "descricao": "Aplicação web para simular empréstimos com taxa configurável, exibindo condições de quitação ou retorno. Também oferece simulação de investimentos, sinalizando a melhor opção para o usuário.",
+    "categoria": "web",
+    "link": "https://github.com/GustavoHammes/Financias",
+    "imagens": ["img/projetos/investimento.png"]
+  },
+  {
+    "id": 3,
+    "semestre": "2° Semestre",
     "titulo": "ABP 2° Semestre - Queimadas em Foco",
-    "disciplina": "Todas",
+    "disciplina": "Projeto Integrador",
     "tecnologias": [
       "Typescript",
       "React",
@@ -21,29 +34,86 @@
       "HTML",
       "CSS"
     ],
-    "descricao": "Aplicação web que permita aos usuários consultar e visualizar de forma interativa os dados de área queimada, risco de fogo e focos de color obtidos na base de dados do BDQueimadas.",
+    "descricao": "Aplicação web que permite aos usuários consultar e visualizar de forma interativa os dados de área queimada, risco de fogo e focos de calor obtidos na base de dados do BDQueimadas.",
     "categoria": "web",
     "link": "https://github.com/octacodeteam/ABP2",
-    "imagem": "img/projetos/abp2.png"
+    "imagens": ["img/projetos/abp2.png"]
   },
   {
-    "id": 3,
+    "id": 4,
+    "semestre": "2° Semestre",
     "titulo": "Dados Espaciais de Irradiação Solar",
     "disciplina": "Desenvolvimento Web II",
     "tecnologias": ["Typescript", "PostgreSQL", "HTML", "CSS", "React"],
     "descricao": "Aplicação web para visualização interativa de dados de irradiação solar em cidades brasileiras, desenvolvida como parte da disciplina de Desenvolvimento Web II.",
     "categoria": "web",
     "link": "https://github.com/alissongritti/DadosEspaciaisRadiacao",
-    "imagem": "img/projetos/irradiacao.png"
+    "imagens": ["img/projetos/irradiacao.png"]
   },
   {
-    "id": 4,
-    "titulo": "Sistema de Empréstimos e Investimentos com relatórios",
-    "disciplina": "Matemática para Computação",
-    "tecnologias": ["Typescript", "PostgreSQL", "HTML", "CSS", "React"],
-    "descricao": "Aplicação web para simular empréstimo com taxa configurável, exibindo condições de quitação ou retorno. Também fornecer a opção de investimento, considerando investimentos diversos e sinalizando a melhor opção para o usuário investir.",
+    "id": 5,
+    "semestre": "3° Semestre",
+    "titulo": "ABP 3° Semestre - GeoInsight",
+    "disciplina": "Projeto Integrador",
+    "tecnologias": [
+      "Typescript",
+      "React",
+      "PostgreSQL",
+      "Figma",
+      "HTML",
+      "CSS"
+    ],
+    "descricao": "Aplicação web interativa que permite a agricultores e pesquisadores visualizar e comparar dados geoespaciais gratuitos de satélites, apoiando a tomada de decisão no campo.",
     "categoria": "web",
-    "link": "https://github.com/GustavoHammes/Financias",
-    "imagem": "img/projetos/investimento.png"
+    "link": "https://github.com/octacodeteam/ABP3",
+    "imagens": [
+      "img/projetos/abp3.png",
+      "img/projetos/abp3-2.png",
+      "img/projetos/abp3-3.png"
+    ]
+  },
+  {
+    "id": 6,
+    "semestre": "4° Semestre",
+    "titulo": "ABP 4° Semestre - Dispensador IoT Inteligente",
+    "disciplina": "Projeto Integrador",
+    "tecnologias": [
+      "Node.js",
+      "Typescript",
+      "Express",
+      "React Native",
+      "Docker",
+      "IoT"
+    ],
+    "descricao": "Dispenser inteligente com compartimentos acionados por servo motor, controlados via aplicativo mobile. Inclui backend Node.js/TypeScript/Express, CI/CD e containerização com Docker.",
+    "categoria": "mobile",
+    "link": "https://github.com/octacodeteam/ABP4",
+    "imagens": [
+      "img/projetos/abp4.png",
+      "img/projetos/abp4-1.png",
+      "img/projetos/abp4-2.png"
+    ]
+  },
+  {
+    "id": 7,
+    "semestre": "4° Semestre",
+    "titulo": "App Scholar - Gestão Acadêmica",
+    "disciplina": "Programação Dispositivos Móveis",
+    "tecnologias": [
+      "React Native",
+      "Expo",
+      "TypeScript",
+      "React Navigation",
+      "Context API"
+    ],
+    "descricao": "Aplicativo mobile para gerenciamento de notas acadêmicas com seis telas, autenticação por rotas protegidas, gerenciamento de estado global com useContext e hooks customizados.",
+    "categoria": "mobile",
+    "link": "https://github.com/alissonfatec/4DSM-ProgramacaoDispositivosMoveis",
+    "imagens": [
+      "img/projetos/app-scholar.jpeg",
+      "img/projetos/app-scholar-2.jpeg",
+      "img/projetos/app-scholar-3.jpeg",
+      "img/projetos/app-scholar-4.jpeg"
+    ]
   }
 ]
