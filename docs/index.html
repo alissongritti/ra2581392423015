@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alisson Gritti | Portfólio Acadêmico</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <meta name="description"
+        content="Portfólio acadêmico de Alisson Gritti, graduando em Análise e Desenvolvimento de Sistemas Multiplataforma" />
+</head>
+
+<body>
+    <header>
+        <h1>Alisson Gritti</h1>
+        <p>Graduando em Análise e Desenvolvimento de Sistemas Multiplataforma</p>
+        <p>FATEC Jacareí</p>
+        <nav>
+            <ul id="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#infos">Informações</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sobre -->
+        <section id="sobre">
+            <!-- ... conteúdo existente ... -->
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <h2>Sobre Mim</h2>
+                    <p>Olá! Meu nome é Alisson e atualmente estou no 2° semestre do curso de Análise e Desenvolvimento
+                        de Sistemas Multiplataforma. Este portfólio apresenta meus principais projetos acadêmicos,
+                        demonstrando minha evolução e
+                        habilidades técnicas.</p>
+                    <div class="skills">
+                        <h3>Habilidades Técnicas</h3>
+                        <div id="skills-container"></div>
+                    </div>
+                </div>
+                <div class="profile-pic">
+                    <img src="img/imgperfil.jpeg" alt="Alisson Gritti" class="circular-photo" />
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos">
+            <h2>Projetos Acadêmicos</h2>
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="dados">Dados</button>
+            </div>
+            <div id="projetos-container" class="projetos-grid"></div>
+        </section>
+
+        <!-- Informações -->
+        <section id="infos">
+            <h2>Informações Adicionais</h2>
+            <div class="info-container">
+                <div class="info-card">
+                    <h3><i class="fas fa-briefcase"></i> Experiência Profisisonal</h3>
+                    <div class="experience-item">
+                        <h4>Analista Funcional de Sistemas</h4>
+                        <p class="info-date">Jul 2021 - Presente</p>
+                        <p class="info-description">Atuação na área de Energy e Utilities como analista funcional,
+                            elaborando especificações funcionais, execução de casos de testes e validação do
+                            funcionamento do produto.</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3><i class="fas fa-network-wired"></i> Conecte-se</h3>
+                    <div class="social-links">
+                        <a href="https://github.com/alissongritti" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i> GitHub Pessoal
+                        </a>
+                        <a href="https://github.com/alissonfatec" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i> GitHub Acadêmico
+                        </a>
+                        <a href="https://www.linkedin.com/in/alisson-gritti-b434a492/" target="_blank"
+                            class="social-link">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <h3><i class="fas fa-palette"></i> Interesses e Hobbies</h3>
+                    <ul class="hobbies-list">
+                        <li><i class="fas fa-code"></i> Desenvolvimento Web</li>
+                        <li><i class="fas fa-gamepad"></i> Games</li>
+                        <li><i class="fas fa-television"></i> Filmes e Séries</li>
+                        <li><i class="fas fa-headphones"></i> Música</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> Alisson Gritti. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Botão voltar ao topo -->
+    <button id="back-to-top" title="Voltar ao topo"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Modal para imagem ampliada -->
+    <div id="modal-imagem" class="modal-imagem">
+        <span id="modal-fechar">&times;</span>
+        <img id="modal-conteudo" class="modal-conteudo" src="" alt="Imagem ampliada" />
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

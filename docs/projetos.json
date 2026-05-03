@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "titulo": "ABP 1° Semestre - Jornada SCRUM",
+    "disciplina": "Todas",
+    "tecnologias": ["Javascript", "PostgreSQL", "Figma", "HTML", "CSS"],
+    "descricao": "Sistema web interativo e educativo que guie os usuários no aprendizado dos conceitos, práticas e princípios do Scrum, proporcionando uma experiência de aprendizado envolvente com seções de instrução, avaliações e emissão de certificados de conclusão.",
+    "categoria": "web",
+    "link": "https://github.com/octacodeteam/ABP1",
+    "imagem": "img/projetos/abp1.png"
+  },
+  {
+    "id": 2,
+    "titulo": "ABP 2° Semestre - Queimadas em Foco",
+    "disciplina": "Todas",
+    "tecnologias": [
+      "Typescript",
+      "React",
+      "PostgreSQL",
+      "Figma",
+      "HTML",
+      "CSS"
+    ],
+    "descricao": "Aplicação web que permita aos usuários consultar e visualizar de forma interativa os dados de área queimada, risco de fogo e focos de color obtidos na base de dados do BDQueimadas.",
+    "categoria": "web",
+    "link": "https://github.com/octacodeteam/ABP2",
+    "imagem": "img/projetos/abp2.png"
+  },
+  {
+    "id": 3,
+    "titulo": "Dados Espaciais de Irradiação Solar",
+    "disciplina": "Desenvolvimento Web II",
+    "tecnologias": ["Typescript", "PostgreSQL", "HTML", "CSS", "React"],
+    "descricao": "Aplicação web para visualização interativa de dados de irradiação solar em cidades brasileiras, desenvolvida como parte da disciplina de Desenvolvimento Web II.",
+    "categoria": "web",
+    "link": "https://github.com/alissongritti/DadosEspaciaisRadiacao",
+    "imagem": "img/projetos/irradiacao.png"
+  },
+  {
+    "id": 4,
+    "titulo": "Sistema de Empréstimos e Investimentos com relatórios",
+    "disciplina": "Matemática para Computação",
+    "tecnologias": ["Typescript", "PostgreSQL", "HTML", "CSS", "React"],
+    "descricao": "Aplicação web para simular empréstimo com taxa configurável, exibindo condições de quitação ou retorno. Também fornecer a opção de investimento, considerando investimentos diversos e sinalizando a melhor opção para o usuário investir.",
+    "categoria": "web",
+    "link": "https://github.com/GustavoHammes/Financias",
+    "imagem": "img/projetos/investimento.png"
+  }
+]
