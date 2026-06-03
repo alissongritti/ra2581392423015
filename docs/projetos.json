@@ -5,7 +5,7 @@
     "titulo": "ABP 1° Semestre - Jornada SCRUM",
     "disciplina": "Projeto Integrador",
     "tecnologias": ["Javascript", "PostgreSQL", "Figma", "HTML", "CSS"],
-    "descricao": "Sistema web interativo e educativo que guia os usuários no aprendizado dos conceitos, práticas e princípios do Scrum, proporcionando uma experiência de aprendizado envolvente com seções de instrução, avaliações e emissão de certificados de conclusão.",
+    "descricao": "Sistema web interativo e educativo que guia os usuários no aprendizado dos conceitos, práticas e princípios do Scrum, proporcionando uma experiência de aprendizado envolvente com seções de instrução, avaliações e emissão de certificados de conclusão. Nesse projeto atuei como Scrum Master, facilitando a comunicação entre os membros da equipe, removendo impedimentos e garantindo que o processo de desenvolvimento seguisse as práticas ágeis do Scrum para entregar um produto de alta qualidade dentro do prazo estabelecido.",
     "categoria": "web",
     "link": "https://github.com/octacodeteam/ABP1",
     "imagens": ["img/projetos/abp1.png"]
@@ -45,7 +45,7 @@
     "titulo": "Dados Espaciais de Irradiação Solar",
     "disciplina": "Desenvolvimento Web II",
     "tecnologias": ["Typescript", "PostgreSQL", "HTML", "CSS", "React"],
-    "descricao": "Aplicação web para visualização interativa de dados de irradiação solar em cidades brasileiras, desenvolvida como parte da disciplina de Desenvolvimento Web II.",
+    "descricao": "Aplicação web para visualização interativa de dados de irradiação solar em cidades brasileiras, desenvolvida como parte da disciplina de Desenvolvimento Web II. Nesse projeto atuei como Product Owner, liderando a definição de requisitos, priorização de funcionalidades e coordenação da equipe para garantir a entrega de uma aplicação funcional e alinhada com as necessidades definidas.",
     "categoria": "web",
     "link": "https://github.com/alissongritti/DadosEspaciaisRadiacao",
     "imagens": ["img/projetos/irradiacao.png"]
@@ -63,7 +63,7 @@
       "HTML",
       "CSS"
     ],
-    "descricao": "Aplicação web interativa que permite a agricultores e pesquisadores visualizar e comparar dados geoespaciais gratuitos de satélites, apoiando a tomada de decisão no campo.",
+    "descricao": "Aplicação web interativa que permite a agricultores e pesquisadores visualizar e comparar dados geoespaciais gratuitos de satélites, apoiando a tomada de decisão no campo. Nesse projeto atuei como desenvolvedor full stack, contribuindo para o desenvolvimento do frontend em React e do backend em Node.js/TypeScript, além de participar da modelagem do banco de dados PostgreSQL.",
     "categoria": "web",
     "link": "https://github.com/octacodeteam/ABP3",
     "imagens": [
