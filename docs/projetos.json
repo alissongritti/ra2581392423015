@@ -85,7 +85,7 @@
       "Docker",
       "IoT"
     ],
-    "descricao": "Dispenser inteligente com compartimentos acionados por servo motor, controlados via aplicativo mobile. Inclui backend Node.js/TypeScript/Express, CI/CD e containerização com Docker.",
+    "descricao": "Dispenser inteligente com compartimentos acionados por servo motor, controlados via aplicativo mobile. Inclui backend Node.js/TypeScript/Express, CI/CD e containerização com Docker. Nesse projeto atuei como desenvolvedor Backend e Scrum Master, criando a integração inicial das APIs e liderando a definição de requisitos e a coordenação da equipe para garantir a entrega de uma solução funcional e alinhada com as necessidades definidas.",
     "categoria": "mobile",
     "link": "https://github.com/octacodeteam/ABP4",
     "imagens": [
