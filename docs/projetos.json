@@ -34,7 +34,7 @@
       "HTML",
       "CSS"
     ],
-    "descricao": "Aplicação web que permite aos usuários consultar e visualizar de forma interativa os dados de área queimada, risco de fogo e focos de calor obtidos na base de dados do BDQueimadas.",
+    "descricao": "Aplicação web que permite aos usuários consultar e visualizar de forma interativa os dados de área queimada, risco de fogo e focos de calor obtidos na base de dados do BDQueimadas. Atuação: Como Product Owner, liderei a definição de requisitos, a priorização do backlog e a coordenação das entregas da equipe.",
     "categoria": "web",
     "link": "https://github.com/octacodeteam/ABP2",
     "imagens": ["img/projetos/abp2.png"]
@@ -45,7 +45,7 @@
     "titulo": "Dados Espaciais de Irradiação Solar",
     "disciplina": "Desenvolvimento Web II",
     "tecnologias": ["Typescript", "PostgreSQL", "HTML", "CSS", "React"],
-    "descricao": "Aplicação web para visualização interativa de dados de irradiação solar em cidades brasileiras. Atuação: Como Product Owner, liderei a definição de requisitos, a priorização do backlog e a coordenação das entregas da equipe.",
+    "descricao": "Aplicação web para visualização interativa de dados de irradiação solar em cidades brasileiras.",
     "categoria": "web",
     "link": "https://github.com/alissongritti/DadosEspaciaisRadiacao",
     "imagens": ["img/projetos/irradiacao.png"]
